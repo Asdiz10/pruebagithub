@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    display: flex;
+    
+}
+   
+.E1 ul{ /* clase del nav superior derecho */
+    list-style: none; /* quitar los puntos de la lista*/
+    display: flex; /* para que los elementos de la lista se pongan en fila */
+    justify-content: right; /* alinear a la derecha */
+    gap: 20px; /* espacio entre los elementos de la lista */
+    padding: 0; /* quitar el padding por defecto */
+    margin: 0; /* quitar el margin por defecto */
+   
+}
+
+.E1 a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+
+
+}
